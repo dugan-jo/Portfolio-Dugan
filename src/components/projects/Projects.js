@@ -14,7 +14,12 @@ function Projects() {
         {ProjectsData.map(
           ({ id, image, title, description, github, website, programs }) => {
             return (
-              <div className="card" key={id}>
+              <div
+                className="card"
+                data-aos="fade-right"
+                data-aos-duration="4000"
+                key={id}
+              >
                 <h3>{title}</h3>
                 <div className="image">
                   <img src={image} alt="Project one image"></img>

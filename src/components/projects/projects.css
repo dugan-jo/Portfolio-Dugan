@@ -1,16 +1,32 @@
-.projectsContainer {
+/* .projectsContainer {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     gap: 1.5rem;
+} */
+.projectsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+img {
+    /* width: auto; */
+    max-height: 175px;
+    width: 300px;
 }
 
 .card {
     background: var(--color-primary);
+    height: 300px;
+    width: 900px;
     padding: .8rem;
     border-radius: 1rem;
     border: 1px solid transparent;
     transition: all 400ms ease-in-out;
     color: var(--color-light);
+    margin: 100px 0
 }
 
 .card:hover {
@@ -19,10 +35,6 @@
     background: transparent;
 }
 
-img {
-    border-radius: 0.5rem;
-    overflow: hidden;
-}
 
 .projectLinks {
    display: flex;
