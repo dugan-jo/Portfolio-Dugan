@@ -37,13 +37,13 @@ header {
 }
 
 .badgesContainer {
-  
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 8%;
     margin-bottom: 100px;
     box-shadow: rgba(219, 218, 218, 0.35) 0px 2px 25px; 
+    padding: 15px;
 }
 .badgeCard {
     display: flex;
@@ -140,23 +140,23 @@ header {
 
 @media screen and (max-width: 1024px) {
     .backgroundImage {
-        height: 85vh;
+        height: 75vh;
     }
     .largeFont {
       font-size: 450%;
     }
-    header {
+    /* header {
         height: 85vh;
-    }
+    } */
 }
 @media screen and (max-width: 600px) {
     .backgroundImage {
-        height: 95vh;
+        height: 65vh;
     }
     .largeFont {
       font-size: 300%;
     }
-    header {
+    /* header {
         height: 95vh;
-    }
+    } */
 }

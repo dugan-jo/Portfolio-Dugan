@@ -23,37 +23,38 @@ function Projects() {
               <img src={FRIENDER} alt="Project Management Application"></img>
             </div>
             <div className="projectText">
-              <h2>Full-Stack React Social Media Application</h2>
-              <h5>
+              <h4>Full-Stack React Social Media Application</h4>
+              <h6>
                 React <br />
                 CSS3 <br />
                 MongoDB <br />
-                Atlas <br />
-                Atlas <br />
-              </h5>
-            </div>
-          </div>
+                Apollo GraphQL <br />
+                JSON Web Tokens <br />
+                bcrypt
+              </h6>
 
-          <div className="cardLinks">
-            <div className="links">
-              <a
-                href="https://github.com/dugan-jo/Project_Tracker"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <BsGithub size={30} />
-              </a>
-              GitHub
-            </div>
-            <div className="links">
-              <a
-                href="http://hidden-forest-18193.herokuapp.com/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <RiComputerLine size={30} />
-              </a>
-              Website
+              <div className="cardLinks">
+                <button className="btn-grad">
+                  <a
+                    href="https://github.com/dugan-jo/Full-Stack-Social-Media-Application"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <BsGithub size={15} />
+                    <h6>GitHub</h6>
+                  </a>
+                </button>
+                <button className="btn-grad">
+                  <a
+                    href="https://friender-social-media.herokuapp.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <RiComputerLine size={15} />
+                    <h6>Website</h6>
+                  </a>
+                </button>
+              </div>
             </div>
           </div>
         </div>
@@ -70,35 +71,36 @@ function Projects() {
               <img src={Project4} alt="Project Management Application"></img>
             </div>
             <div className="projectText">
-              <h2>Full-Stack Handlebars Project Management Application</h2>
-              <h5>
-                React <br />
-                MongoDB <br />
-                Atlas
-              </h5>
-            </div>
-          </div>
+              <h4>Full-Stack Handlebars Project Management Application</h4>
+              <h6>
+                Handlebars <br />
+                ExpressJS <br />
+                MySQL Workbench <br />
+                bcrypt
+              </h6>
 
-          <div className="cardLinks">
-            <div className="links">
-              <a
-                href="https://github.com/dugan-jo/Project_Tracker"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <BsGithub size={30} />
-              </a>
-              GitHub
-            </div>
-            <div className="links">
-              <a
-                href="http://hidden-forest-18193.herokuapp.com/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <RiComputerLine size={30} />
-              </a>
-              Website
+              <div className="cardLinks">
+                <button className="btn-grad">
+                  <a
+                    href="https://github.com/dugan-jo/Full-Stack-Social-Media-Application"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <BsGithub size={15} />
+                    <h6>GitHub</h6>
+                  </a>
+                </button>
+                <button className="btn-grad">
+                  <a
+                    href="https://friender-social-media.herokuapp.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <RiComputerLine size={15} />
+                    <h6>Website</h6>
+                  </a>
+                </button>
+              </div>
             </div>
           </div>
         </div>
@@ -115,35 +117,38 @@ function Projects() {
               <img src={Project5} alt="Project Management Application"></img>
             </div>
             <div className="projectText">
-              <h2>Backend Application</h2>
-              <h5>
+              <h4>Object-Relational Mapping (ORM): E-Commerce Back End</h4>
+              <h6>
                 React <br />
+                CSS3 <br />
                 MongoDB <br />
-                Atlas
-              </h5>
-            </div>
-          </div>
+                Apollo GraphQL <br />
+                JSON Web Tokens <br />
+                bcrypt
+              </h6>
 
-          <div className="cardLinks">
-            <div className="links">
-              <a
-                href="https://github.com/dugan-jo/Project_Tracker"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <BsGithub size={30} />
-              </a>
-              GitHub
-            </div>
-            <div className="links">
-              <a
-                href="http://hidden-forest-18193.herokuapp.com/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <RiComputerLine size={30} />
-              </a>
-              Website
+              <div className="cardLinks">
+                <button className="btn-grad">
+                  <a
+                    href="https://github.com/dugan-jo/Full-Stack-Social-Media-Application"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <BsGithub size={15} />
+                    <h6>GitHub</h6>
+                  </a>
+                </button>
+                <button className="btn-grad">
+                  <a
+                    href="https://friender-social-media.herokuapp.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <RiComputerLine size={15} />
+                    <h6>Website</h6>
+                  </a>
+                </button>
+              </div>
             </div>
           </div>
         </div>

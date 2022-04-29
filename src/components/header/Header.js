@@ -7,7 +7,6 @@ import { IoLogoCss3 } from "react-icons/io";
 import { SiJavascript } from "react-icons/si";
 import { FaNode } from "react-icons/fa";
 import { SiHeroku } from "react-icons/si";
-
 import Contact from "../contact/Contact";
 
 const Header = () => {

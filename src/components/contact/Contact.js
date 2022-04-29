@@ -42,7 +42,7 @@ const Contact = () => {
         </div>
         <div className="iconNames">
           <a
-            href="mailto:joseph.michael.dugan@gmail.com"
+            href="https://docs.google.com/document/d/1d8v2tdshBIgA4CokHvZMpvxrJhItISzR6BNYsdAkEzE/edit"
             target="_blank"
             rel="noreferrer"
           >
