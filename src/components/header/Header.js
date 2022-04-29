@@ -17,71 +17,70 @@ const Header = () => {
         <div className="backgroundImage">
           <div id="home" className="headerContainer">
             <h5>Full-Stack Software Engineer</h5>
-            <h1>JOSEPH DUGAN</h1>
+            <h1 className="largeFont">JOSEPH DUGAN</h1>
             <Contact />
           </div>
         </div>
       </header>
-      <badges className="badges">
-        <div className="badgesContainer">
-          <div className="badgeCard">
-            <article class="badge blue">
-              <div class="rounded">
-                <FaReact size={18} />
-              </div>
-            </article>
-            <h6>React</h6>
-          </div>
-          <div className="badgeCard">
-            <article class="badge green">
-              <div class="rounded">
-                <SiMongodb size={18} />
-              </div>
-            </article>
-            <h6>MongoDB</h6>
-          </div>
-          <div className="badgeCard">
-            <article class="badge gainsboro">
-              <div class="rounded">
-                <AiFillHtml5 size={18} />
-              </div>
-            </article>
-            <h6>HTML5</h6>
-          </div>
-          <div className="badgeCard">
-            <article class="badge crimson">
-              <div class="rounded">
-                <IoLogoCss3 size={18} />
-              </div>
-            </article>
-            <h6>CSS3</h6>
-          </div>
-          <div className="badgeCard">
-            <article class="badge orange">
-              <div class="rounded">
-                <SiJavascript size={18} />
-              </div>
-            </article>
-            <h6>JavaScript</h6>
-          </div>
-          <div className="badgeCard">
-            <article class="badge green">
-              <div class="rounded">
-                <FaNode size={18} />
-              </div>
-            </article>
-            <h6>NodeJS</h6>
-          </div>
-          <div className="badgeCard">
-            <article class="badge purple">
-              <div class="rounded">
-                <SiHeroku size={18} />
-              </div>
-            </article>
-            <h6>Heroku</h6>
-          </div>
+
+      <div className="badgesContainer">
+        <div className="badgeCard">
+          <article class="badge blue">
+            <div class="rounded">
+              <FaReact size={18} />
+            </div>
+          </article>
+          <h6>React</h6>
         </div>
-      </badges>
+        <div className="badgeCard">
+          <article class="badge green">
+            <div class="rounded">
+              <SiMongodb size={18} />
+            </div>
+          </article>
+          <h6>MongoDB</h6>
+        </div>
+        <div className="badgeCard">
+          <article class="badge gainsboro">
+            <div class="rounded">
+              <AiFillHtml5 size={18} />
+            </div>
+          </article>
+          <h6>HTML5</h6>
+        </div>
+        <div className="badgeCard">
+          <article class="badge crimson">
+            <div class="rounded">
+              <IoLogoCss3 size={18} />
+            </div>
+          </article>
+          <h6>CSS3</h6>
+        </div>
+        <div className="badgeCard">
+          <article class="badge orange">
+            <div class="rounded">
+              <SiJavascript size={18} />
+            </div>
+          </article>
+          <h6>JavaScript</h6>
+        </div>
+        <div className="badgeCard">
+          <article class="badge green">
+            <div class="rounded">
+              <FaNode size={18} />
+            </div>
+          </article>
+          <h6>NodeJS</h6>
+        </div>
+        <div className="badgeCard">
+          <article class="badge purple">
+            <div class="rounded">
+              <SiHeroku size={18} />
+            </div>
+          </article>
+          <h6>Heroku</h6>
+        </div>
+      </div>
     </>
   );
 };
