@@ -12,11 +12,14 @@
 }
 
 .icons  {
+    border-top: 1px solid black;
     display: flex;
     padding: 25px;
     flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .emulated-flex-gap {

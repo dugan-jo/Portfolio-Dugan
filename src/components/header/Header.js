@@ -16,9 +16,8 @@ const Header = () => {
       <header>
         <div className="backgroundImage">
           <div id="home" className="headerContainer">
-            <h1>JOSEPH DUGAN</h1>
-            <br />
             <h5>Full-Stack Software Engineer</h5>
+            <h1>JOSEPH DUGAN</h1>
             <Contact />
           </div>
         </div>
@@ -28,7 +27,7 @@ const Header = () => {
           <div className="badgeCard">
             <article class="badge blue">
               <div class="rounded">
-                <FaReact size={30} />
+                <FaReact size={18} />
               </div>
             </article>
             <h6>React</h6>
@@ -36,7 +35,7 @@ const Header = () => {
           <div className="badgeCard">
             <article class="badge green">
               <div class="rounded">
-                <SiMongodb size={30} />
+                <SiMongodb size={18} />
               </div>
             </article>
             <h6>MongoDB</h6>
@@ -44,7 +43,7 @@ const Header = () => {
           <div className="badgeCard">
             <article class="badge gainsboro">
               <div class="rounded">
-                <AiFillHtml5 size={30} />
+                <AiFillHtml5 size={18} />
               </div>
             </article>
             <h6>HTML5</h6>
@@ -52,7 +51,7 @@ const Header = () => {
           <div className="badgeCard">
             <article class="badge crimson">
               <div class="rounded">
-                <IoLogoCss3 size={30} />
+                <IoLogoCss3 size={18} />
               </div>
             </article>
             <h6>CSS3</h6>
@@ -60,7 +59,7 @@ const Header = () => {
           <div className="badgeCard">
             <article class="badge orange">
               <div class="rounded">
-                <SiJavascript size={30} />
+                <SiJavascript size={18} />
               </div>
             </article>
             <h6>JavaScript</h6>
@@ -68,7 +67,7 @@ const Header = () => {
           <div className="badgeCard">
             <article class="badge green">
               <div class="rounded">
-                <FaNode size={30} />
+                <FaNode size={18} />
               </div>
             </article>
             <h6>NodeJS</h6>
@@ -76,7 +75,7 @@ const Header = () => {
           <div className="badgeCard">
             <article class="badge purple">
               <div class="rounded">
-                <SiHeroku size={30} />
+                <SiHeroku size={18} />
               </div>
             </article>
             <h6>Heroku</h6>

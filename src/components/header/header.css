@@ -16,9 +16,12 @@ header {
 }
 
 .headerContainer {
+  padding-top: 30px;
     text-align: center;
     background: rgba(255, 255, 255, 0.75);
     box-shadow: rgba(0,0,0,0.35) 0px 5px 15px; 
+    margin-left: 5%;
+    border-radius: 15px 0px 0px 15px;
 }
 
 .color-30 {
@@ -52,9 +55,10 @@ header {
     justify-content: center;
     align-items: center;
     padding: 1%;
-    width: 52px;
-	height: 52px;
-	border-radius: 20%;
+    aspect-ratio: 1 / 1;
+    width: 33px;
+	  /* height: 52px; */
+	  border-radius: 10px;
     box-shadow: rgba(0,0,0,0.35) 0px 5px 15px; 
     margin: 10px;
 }
@@ -62,8 +66,8 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 40px;
-    height: 40px;
+    aspect-ratio: 1 /1;
+    height: 27px;
     background: white;
     border-radius: 30%;
     left: calc(50% - 10rem);
