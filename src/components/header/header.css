@@ -9,22 +9,15 @@ header {
     height: 75vh;
     padding-top: 3rem;
     background: url(../../assets/IMG_0239.jpg);
-   background-size: cover;
-   justify-content: center;
-   align-items: center;
-   
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
     box-shadow: rgba(0,0,0,0.35) 0px 5px 15px; 
-
 }
 
 .headerContainer {
     text-align: center;
-    padding: 2rem;
-    
     background: rgba(255, 255, 255, 0.75);
-    /* opacity: 85%; */
-    /* border-radius: 20px; */
-  
     box-shadow: rgba(0,0,0,0.35) 0px 5px 15px; 
 }
 

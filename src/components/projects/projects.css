@@ -1,15 +1,14 @@
-/* .projectsContainer {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 1.5rem;
-} */
+
 .projectsContainer {
+    border-top: 2px solid black;
     display: flex;
     justify-content: center;
-    align-items: center;
-    width: 100%;
+    /* align-items: center; */
+    /* width: 100%; */
     flex-direction: column;
-    border: 2px solid black;
+    /* border: 2px solid black; */
+    background: linear-gradient(to right, #ece9e6, #ffffff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 
@@ -18,26 +17,42 @@
     display: flex;
     padding: .8rem;
     border-radius: 1rem;
-    transition: all 400ms ease-in-out;
-    color: var(--color-light);
     margin: 100px 0;
+
+
+}
+
+.cardHead {
+    display: flex;
+    padding: .8rem;
+    border-radius: 1rem;
     padding: 2%;
-    border: 4px solid rgb(238, 0, 0);
+    /* border: 4px solid rgb(238, 0, 0); */
+    box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+    background:  #d3eee9; 
+
 }
 
 .image {
-    /* width: auto; */
     max-height: 300px;
     width: 300px;
     overflow: hidden;
-    border-radius: 1rem;
+    border-radius: 10px;
+    ;
+}
+.projectText {
+    margin-left: 25px;
 }
 
+.cardLinks {
+    display: flex;
+    padding: .8rem;
+    border-radius: 1rem;
+    padding: 2%;
+   margin-left: 1rem;;
+    box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+    background:  #86fde8; 
 
-.projectLinks {
-   display: flex;
-   align-content: center;
-   gap: 0.5rem;
 }
 
 @media screen and (max-width: 1024px) {
