@@ -1,22 +1,36 @@
 header {
+    /* height: 75vh;
+    padding-top: 3rem; */
+    overflow: hidden;
+}
+
+.backgroundImage {
+    /* display: flex; */
     height: 75vh;
-    padding-top: 1rem;
-    overflow: hidden
+    padding-top: 3rem;
+    background: url(../../assets/IMG_0239.jpg);
+   background-size: cover;
+   justify-content: center;
+   align-items: center;
+   
+    box-shadow: rgba(0,0,0,0.35) 0px 5px 15px; 
+
 }
 
 .headerContainer {
-    margin-top: 10rem;
-    margin-right: -10rem;
     text-align: center;
-    padding-top: 2rem;
-    /* background: linear-gradient(to right, #e0eafc, #cfdef3); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    color:  blue;
-
-    box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
-    border-radius: 10px;
+    padding: 2rem;
+    
+    background: rgba(255, 255, 255, 0.75);
+    /* opacity: 85%; */
+    /* border-radius: 20px; */
+  
+    box-shadow: rgba(0,0,0,0.35) 0px 5px 15px; 
 }
 
-
+.color-30 {
+ color: var(--color-30);
+}
 /* ================= IMAGE =================  */
 .me {
     width: 20rem;
@@ -26,18 +40,115 @@ header {
     left: calc(50% - 10rem); 
 }
 
-.quote {
-    /* position: sticky; */
-    padding-top: 350px;
+.badgesContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8%;
+    margin-bottom: 100px;
+}
+.badgeCard {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
 
+.badge {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+    width: 52px;
+	height: 52px;
+	border-radius: 20%;
+    box-shadow: rgba(0,0,0,0.35) 0px 5px 15px; 
+    margin: 10px;
+}
+.rounded {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: white;
+    border-radius: 30%;
+    left: calc(50% - 10rem);
+    box-shadow: rgba(0,0,0,0.35) 0px 5px 15px; 
+}
+
+
+
+/* Colors */
+.blue {
+    background: dodgerblue;
+    color: deepskyblue;
+}
+
+.orange {
+  background: darkorange;
+  color: orange;
+}
+
+.gold {
+  background: gold;
+  color: gold;
+}
+
+.red {
+  background: red;
+  color: red;
+}
+
+.purple {
+  background: mediumpurple;
+  color: slategray;
+}
+
+.green {
+  background: yellowgreen;
+  color: darkslategray;
+}
+
+.crimson {
+  background: crimson;
+  color: firebrick;
+}
+
+.steel {
+  background: steelblue;
+  color: gold;
+}
+
+.pink {
+  background: hotpink;
+  color: palevioletred;
+}
+
+.rebecca {
+  background: rebeccapurple;
+  color: rebeccapurple;
+}
+
+.gainsboro {
+  background: gainsboro;
+  color: orangered;
+}
+
+
 @media screen and (max-width: 1024px) {
+    .backgroundImage {
+        height: 85vh;
+    }
     header {
-        height: 100vh;
+        height: 85vh;
     }
 }
 @media screen and (max-width: 600px) {
+    .backgroundImage {
+        height: 95vh;
+    }
     header {
-        height: 100vh;
+        height: 95vh;
     }
 }

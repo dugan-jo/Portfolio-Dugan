@@ -10,7 +10,7 @@ const ProjectsData = [
     id: 4,
     image: Project4,
     title: `Project Tracker`,
-    description: `Project 2: This is a project management application to allow you to create projects, add user's, create project tasks, delete projects, and mark the status of whether a task has been completed or not. With Project Hub you can reorganize your daily goals. It was built to be a viable competitor against the hundreds of similar applications found of the web today. This project taught us that everyone has daily routines that need to be organized. The possibilities are endless and now are made more efficient.`,
+    Programs: `handlebars`,
     github: "https://github.com/dugan-jo/Project_Tracker",
     website: "http://hidden-forest-18193.herokuapp.com/",
   },

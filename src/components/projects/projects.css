@@ -9,30 +9,28 @@
     align-items: center;
     width: 100%;
     flex-direction: column;
+    border: 2px solid black;
 }
 
-img {
-    /* width: auto; */
-    max-height: 175px;
-    width: 300px;
-}
+
 
 .card {
-    background: var(--color-primary);
-    height: 300px;
-    width: 900px;
+    display: flex;
     padding: .8rem;
     border-radius: 1rem;
-    border: 1px solid transparent;
     transition: all 400ms ease-in-out;
     color: var(--color-light);
-    margin: 100px 0
+    margin: 100px 0;
+    padding: 2%;
+    border: 4px solid rgb(238, 0, 0);
 }
 
-.card:hover {
-    border-color: var(--color-primary);
-    color: var(--color-primary);
-    background: transparent;
+.image {
+    /* width: auto; */
+    max-height: 300px;
+    width: 300px;
+    overflow: hidden;
+    border-radius: 1rem;
 }
 
 

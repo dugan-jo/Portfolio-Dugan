@@ -3,12 +3,30 @@
 }
 
 #contact {
-    margin-top: 5rem;
+    margin-top: 1rem;
     text-align: center;
-    padding: 2rem;
-    height: 100%;
+    padding: 1rem;
     position: relative;
-    background: var(--color-bg-secondary);
-    border-radius: 0rem 11rem 0rem 11rem;
-    box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+    /* box-shadow: rgba(0,0,0,0.35) 0px 5px 15px; */
+    /* border-radius: 10px; */
+}
+
+.icons  {
+    display: flex;
+    padding: 25px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.emulated-flex-gap {
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin: -12px 0 0 -12px;
+    width: calc(100% + 12px);
+  }
+
+.badges {
+    border: 1px solid black;
+    box-shadow: rgba(0,0,0,0.35) 0px 5px 15px; 
 }

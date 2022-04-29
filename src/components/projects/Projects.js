@@ -27,10 +27,10 @@ function Projects() {
                 <h5>{description}</h5>
                 <div className="portfolioLinks">
                   <a href={github} target="_blank" rel="noreferrer">
-                    <BsGithub />
+                    <BsGithub size={30} />
                   </a>
                   <a href={website} target="_blank" rel="noreferrer">
-                    <RiComputerLine />
+                    <RiComputerLine size={30} />
                   </a>
                 </div>
                 <div>
