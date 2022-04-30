@@ -26,7 +26,7 @@ const Header = () => {
         <div className="badgeCard">
           <article class="badge blue">
             <div class="rounded">
-              <FaReact size={18} />
+              <FaReact size={35} />
             </div>
           </article>
           <h6>React</h6>
@@ -66,7 +66,7 @@ const Header = () => {
         <div className="badgeCard">
           <article class="badge green">
             <div class="rounded">
-              <FaNode size={18} />
+              <FaNode size={24} />
             </div>
           </article>
           <h6>NodeJS</h6>

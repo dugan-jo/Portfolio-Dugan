@@ -15,7 +15,7 @@
 
 /* - - :ROOT MEANS I CAN USE IT ANYWHERE IN THE PROJECT */
 :root {
- 
+--color-bg: rgb(242, 246, 247); 
 
  --color-60: linear-gradient(to right, #FFFFFF, #ECE9E6);
  --color-30: #cdc2c2;
@@ -117,11 +117,7 @@ a:hover {
     color: var(--color-bg);
 }
 
-img {
-    display: block;
-    width: 100%;
-    object-fit: cover;
-}
+
 
 /* ==================== MEDIA QUERIES (MEDIUM DEVICES) ==================== */
 @media screen and (max-width: 1024px) {

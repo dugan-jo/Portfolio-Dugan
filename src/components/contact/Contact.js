@@ -5,6 +5,7 @@ import { ImLinkedin } from "react-icons/im";
 import { MdEmail } from "react-icons/md";
 import { BsFillTelephoneForwardFill } from "react-icons/bs";
 import { IoDocumentAttach } from "react-icons/io5";
+import Resume from "../../assets/Joseph Dugan - Resume .pdf";
 
 const Contact = () => {
   return (
@@ -41,11 +42,7 @@ const Contact = () => {
           <h6>Email</h6>
         </div>
         <div className="iconNames">
-          <a
-            href="https://docs.google.com/document/d/1d8v2tdshBIgA4CokHvZMpvxrJhItISzR6BNYsdAkEzE/edit"
-            target="_blank"
-            rel="noreferrer"
-          >
+          <a href={Resume} target="_blank" rel="noreferrer">
             <IoDocumentAttach size={20} />
           </a>
           <h6>Resume</h6>
