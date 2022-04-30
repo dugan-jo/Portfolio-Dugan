@@ -3,8 +3,9 @@ import "./projects.css";
 import { BsGithub } from "react-icons/bs";
 import { RiComputerLine } from "react-icons/ri";
 import Project4 from "../../assets/project4.png";
-import FRIENDER from "../../assets/FRIENDER.gif";
+import FRIENDER from "../../assets/Friender.jpeg";
 import Project5 from "../../assets/project5.gif";
+import DiscCover from "../../assets/DiscCover.jpeg";
 
 function Projects() {
   return (
@@ -133,7 +134,7 @@ function Projects() {
         >
           <div className="cardHead">
             <div className="imageContainer">
-              <img src={FRIENDER} alt="Project Management Application"></img>
+              <img src={DiscCover} alt="Project Management Application"></img>
             </div>
             <div className="projectText">
               <div className="text">

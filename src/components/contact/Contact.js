@@ -49,8 +49,8 @@ const Contact = () => {
         </div>
         <div className="iconNames">
           <a
-            href="mailto:joseph.michael.dugan@gmail.com"
-            target="_blank"
+            href="tel:720-607-8306"
+            // target="_blank"
             rel="noreferrer"
           >
             <BsFillTelephoneForwardFill size={20} />
