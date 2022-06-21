@@ -14,7 +14,9 @@ header {
     align-items: center;
     box-shadow: rgba(0,0,0,0.35) 0px 5px 15px; 
 }
-
+.got {
+  background: black;
+}
 .headerContainer {
   padding-top: 30px;
     text-align: center;
