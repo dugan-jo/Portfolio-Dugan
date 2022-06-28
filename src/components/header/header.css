@@ -6,7 +6,7 @@ header {
 
 .backgroundImage {
     /* display: flex; */
-    height: 75vh;
+    height: 70vh;
     padding-top: 3rem;
     background: url(../../assets/IMG_0239.jpg);
     background-size: cover;
