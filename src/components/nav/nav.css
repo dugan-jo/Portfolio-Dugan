@@ -3,7 +3,7 @@ nav {
     /* will only display the width of the content */
     width: max-content; 
     display: block;
-    padding: 0.7rem 1.7rem;
+    padding: 0.7rem 1.8rem;
     z-index: 2;
     position: fixed;
     left: 40%;
