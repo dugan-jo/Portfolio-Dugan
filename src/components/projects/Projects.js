@@ -59,7 +59,7 @@ function Projects() {
                 </button>
                 <button className="btn-grad">
                   <a
-                    href="https://friender-social-media.herokuapp.com/"
+                    href="https://app-friender.herokuapp.com/"
                     target="_blank"
                     rel="noreferrer"
                   >
